@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://docs.chatbotman.com/security.html</loc>
+    
+    <lastmod>2018-02-21T11:08:28.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/sendingMessage.html</loc>
+    
+    <lastmod>2018-02-21T11:08:17.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/extensionExample.html</loc>
+    
+    <lastmod>2018-02-21T11:00:51.657Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/extension.html</loc>
+    
+    <lastmod>2018-02-21T11:00:40.166Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/unsubscribe.html</loc>
+    
+    <lastmod>2018-02-21T11:00:04.045Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/switchLanguage.html</loc>
+    
+    <lastmod>2018-02-21T10:59:58.575Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/subscribe.html</loc>
+    
+    <lastmod>2018-02-21T10:59:54.409Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/takeover.html</loc>
+    
+    <lastmod>2018-02-21T10:50:38.648Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/triggerEvent.html</loc>
+    
+    <lastmod>2018-02-21T10:48:31.174Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/gettingStarted.html</loc>
+    
+    <lastmod>2018-02-21T07:22:49.320Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/labelUser.html</loc>
+    
+    <lastmod>2018-02-21T06:52:38.358Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/campaigns.html</loc>
+    
+    <lastmod>2018-02-21T06:22:13.424Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/themes/index.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.103Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/setup.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.102Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/plugins/index.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.041Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/privateReply.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.041Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/index.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.040Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/handover.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.027Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/customers.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.026Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/api/tag.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.025Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/api/scaffolds.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.025Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/api/router.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.025Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/api/rendering.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.025Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/api/themes.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.025Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/api/posts.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.024Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/api/renderer.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.024Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/api/processor.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.024Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/api/generator.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.023Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/api/helper.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.023Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/api/index.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.023Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/api/locals.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.023Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/api/migrator.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.023Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/api/filter.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.022Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/api/events.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.022Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/api/box.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.022Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/api/console.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.022Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/api/deployer.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.022Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/about/index.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.021Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/news/2015/02/27/new-documentation-and-registry/</loc>
+    
+    <lastmod>2018-02-13T10:53:12.021Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/news/2015/03/05/hexo-3-0-released/</loc>
+    
+    <lastmod>2018-02-13T10:53:12.021Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/news/2016/02/28/hexo-3-2-released/</loc>
+    
+    <lastmod>2018-02-13T10:53:12.021Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/news/2014/07/13/hexo-2-8-released/</loc>
+    
+    <lastmod>2018-02-13T10:53:12.012Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/news/2014/06/14/hexo-2-7-released/</loc>
+    
+    <lastmod>2018-02-13T10:53:12.011Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/LICENSE.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.008Z</lastmod>
+    
+  </url>
+  
+</urlset>
