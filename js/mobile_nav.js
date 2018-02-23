@@ -7,6 +7,7 @@
   var CLASS_NAME = 'mobile-nav-on';
   if (!navToggle) return;
 
+  debugger;
   navToggle.addEventListener('click', function(e) {
     e.preventDefault();
     e.stopPropagation();
