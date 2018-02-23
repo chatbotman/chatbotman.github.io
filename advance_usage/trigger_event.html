@@ -38,21 +38,21 @@
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="Chatbotman">
   <!-- Open Graph -->
-  <meta name="description" content="What is Trigger Event?Trigger event is a chatbotman built-in function that let you trigger Dialogflow intents by outputting an event. It allows you to achieve the following purposes:  When you want to">
+  <meta name="description" content="What is Trigger Event?Trigger event is a Chatbotman built-in function that let you trigger Dialogflow intents by outputting an event. It allows you to achieve the following purposes:  When you want to">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Trigger Event">
 <meta property="og:url" content="https://docs.chatbotman.com/advance_usage/trigger_event.html">
 <meta property="og:site_name" content="Chatbotman">
-<meta property="og:description" content="What is Trigger Event?Trigger event is a chatbotman built-in function that let you trigger Dialogflow intents by outputting an event. It allows you to achieve the following purposes:  When you want to">
+<meta property="og:description" content="What is Trigger Event?Trigger event is a Chatbotman built-in function that let you trigger Dialogflow intents by outputting an event. It allows you to achieve the following purposes:  When you want to">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="https://docs.chatbotman.com/advance_usage/screenshots/trigger_event_step01.png">
-<meta property="og:image" content="https://docs.chatbotman.com/advance_usage/screenshots/trigger_event_step02.png">
-<meta property="og:image" content="https://docs.chatbotman.com/advance_usage/screenshots/trigger_event_step03.png">
-<meta property="og:updated_time" content="2018-02-23T05:40:42.578Z">
+<meta property="og:image" content="https://docs.chatbotman.com/images/advance_usage/trigger_event_step01.png">
+<meta property="og:image" content="https://docs.chatbotman.com/images/advance_usage/trigger_event_step02.png">
+<meta property="og:image" content="https://docs.chatbotman.com/images/advance_usage/trigger_event_step03.png">
+<meta property="og:updated_time" content="2018-02-23T09:22:43.867Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Trigger Event">
-<meta name="twitter:description" content="What is Trigger Event?Trigger event is a chatbotman built-in function that let you trigger Dialogflow intents by outputting an event. It allows you to achieve the following purposes:  When you want to">
-<meta name="twitter:image" content="https://docs.chatbotman.com/advance_usage/screenshots/trigger_event_step01.png">
+<meta name="twitter:description" content="What is Trigger Event?Trigger event is a Chatbotman built-in function that let you trigger Dialogflow intents by outputting an event. It allows you to achieve the following purposes:  When you want to">
+<meta name="twitter:image" content="https://docs.chatbotman.com/images/advance_usage/trigger_event_step01.png">
 <meta property="fb:admins" content="100000247608790">
   <!-- Google Analytics -->
   
@@ -113,20 +113,20 @@
                 <a href="https://github.com/hexojs/site/edit/master/source/advance_usage/trigger_event.md" class="article-edit-link" title="Improve this doc"><i class="fa fa-pencil"></i></a>
               </header>
               <div class="article-content" itemprop="articleBody">
-                <h2 id="What-is-Trigger-Event" class="article-heading"><a href="#What-is-Trigger-Event" class="headerlink" title="What is Trigger Event?"></a>What is Trigger Event?<a class="article-anchor" href="#What-is-Trigger-Event" aria-hidden="true"></a></h2><p>Trigger event is a chatbotman built-in function that let you trigger Dialogflow intents by outputting an event. It allows you to achieve the following purposes:</p>
+                <h2 id="What-is-Trigger-Event" class="article-heading"><a href="#What-is-Trigger-Event" class="headerlink" title="What is Trigger Event?"></a>What is Trigger Event?<a class="article-anchor" href="#What-is-Trigger-Event" aria-hidden="true"></a></h2><p>Trigger event is a Chatbotman built-in function that let you trigger Dialogflow intents by outputting an event. It allows you to achieve the following purposes:</p>
 <ol>
 <li>When you want to say something after the conversation end.</li>
 <li>When you want to add promotional message after replying the subscribe.</li>
 </ol>
-<h2 id="Implementation" class="article-heading"><a href="#Implementation" class="headerlink" title="Implementation"></a>Implementation<a class="article-anchor" href="#Implementation" aria-hidden="true"></a></h2><p>You need to output an event named <code>Chatbotman_TriggerEvent</code>. Chatbotman will detect this event name and trigger and intent for you. </p>
-<p>Here is an example intents of trigger event.</p>
-<p>First, create an intent that output <code>Chatbotman_TriggerEvent</code> action and output a paramter called <code>eventName</code> with value <code>PromotionalMessage</code><br><img src="screenshots/trigger_event_step01.png" alt=""></p>
-<p>Second, create an intent that accept <code>PromotionalMessage</code> event.<br><img src="screenshots/trigger_event_step02.png" alt=""></p>
-<p>The output would be like this.<br><img src="screenshots/trigger_event_step03.png" alt=""></p>
+<h2 id="Implementation" class="article-heading"><a href="#Implementation" class="headerlink" title="Implementation"></a>Implementation<a class="article-anchor" href="#Implementation" aria-hidden="true"></a></h2><p>You need to output an action named <code>Chatbotman_TriggerEvent</code>. Chatbotman will detect this action name and trigger an event for you. </p>
+<p>Here is an example intent of trigger event.</p>
+<p>First, create an intent that output <code>Chatbotman_TriggerEvent</code> action and output a parameter called <code>eventName</code> with value <code>PromotionalMessage</code><br><img src="/images/advance_usage/trigger_event_step01.png" alt=""></p>
+<p>Second, create an intent that accept <code>PromotionalMessage</code> event.<br><img src="/images/advance_usage/trigger_event_step02.png" alt=""></p>
+<p>The output would be like this.<br><img src="/images/advance_usage/trigger_event_step03.png" alt=""></p>
 
               </div>
               <footer class="article-footer">
-                <time class="article-footer-updated" datetime="2018-02-23T05:40:42.578Z" itemprop="dateModified">Last updated: 2018-02-23</time>
+                <time class="article-footer-updated" datetime="2018-02-23T09:22:43.867Z" itemprop="dateModified">Last updated: 2018-02-23</time>
                 
               </footer>
               <!-- 
