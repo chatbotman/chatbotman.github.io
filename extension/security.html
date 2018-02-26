@@ -38,17 +38,19 @@
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="Chatbotman">
   <!-- Open Graph -->
-  <meta name="description" content="Further description of chatbotman">
+  <meta name="description" content="To protect your endpoint, you need to define you extension secret in Chatbotman interface. Then, you need to verify the “x-hub-signature” header. Here is an example function that verify x-hub-signatur">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Protect your endpoint">
 <meta property="og:url" content="https://docs.chatbotman.com/extension/security.html">
 <meta property="og:site_name" content="Chatbotman">
-<meta property="og:description" content="Further description of chatbotman">
+<meta property="og:description" content="To protect your endpoint, you need to define you extension secret in Chatbotman interface. Then, you need to verify the “x-hub-signature” header. Here is an example function that verify x-hub-signatur">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-02-23T05:40:42.587Z">
+<meta property="og:image" content="https://docs.chatbotman.com/images/private_extension/extension_configuration.png">
+<meta property="og:updated_time" content="2018-02-26T08:21:41.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Protect your endpoint">
-<meta name="twitter:description" content="Further description of chatbotman">
+<meta name="twitter:description" content="To protect your endpoint, you need to define you extension secret in Chatbotman interface. Then, you need to verify the “x-hub-signature” header. Here is an example function that verify x-hub-signatur">
+<meta name="twitter:image" content="https://docs.chatbotman.com/images/private_extension/extension_configuration.png">
 <meta property="fb:admins" content="100000247608790">
   <!-- Google Analytics -->
   
@@ -109,10 +111,12 @@
                 <a href="https://github.com/hexojs/site/edit/master/source/extension/security.md" class="article-edit-link" title="Improve this doc"><i class="fa fa-pencil"></i></a>
               </header>
               <div class="article-content" itemprop="articleBody">
-                
+                <p>To protect your endpoint, you need to define you extension secret in Chatbotman interface.<br><img src="/images/private_extension/extension_configuration.png" alt=""></p>
+<p>Then, you need to verify the “x-hub-signature” header. Here is an example function that verify x-hub-signature.<br><figure class="highlight typescript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> * <span class="keyword">as</span> crypto <span class="keyword">from</span> <span class="string">'crypto'</span>;</span><br><span class="line"><span class="keyword">export</span> <span class="keyword">const</span> verifyXHubChallenge = <span class="function">(<span class="params">challenge: <span class="built_in">string</span>, body: <span class="built_in">string</span>, secret: <span class="built_in">string</span></span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> (<span class="string">"sha1="</span> + crypto.createHmac(<span class="string">"sha1"</span>, secret).update(body, <span class="string">"utf8"</span>).digest(<span class="string">"hex"</span>)) === challenge;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p>
+
               </div>
               <footer class="article-footer">
-                <time class="article-footer-updated" datetime="2018-02-23T05:40:42.587Z" itemprop="dateModified">Last updated: 2018-02-23</time>
+                <time class="article-footer-updated" datetime="2018-02-26T08:21:41.000Z" itemprop="dateModified">Last updated: 2018-02-26</time>
                 
               </footer>
               <!-- 
@@ -147,7 +151,7 @@
       </article>
       <aside id="sidebar" role="navigation">
   <div class="inner">
-    <strong class="sidebar-title">Basic Usage</strong><a href="/index.html" class="sidebar-link">Overview</a><a href="/basic_usage/setup.html" class="sidebar-link">Setup Your First Chatbot</a><a href="/basic_usage/private_reply.html" class="sidebar-link">Create a Private Reply</a><a href="/basic_usage/customers.html" class="sidebar-link">See Who Interact with Bot</a><a href="/basic_usage/campaigns.html" class="sidebar-link">Make a Campagin</a><strong class="sidebar-title">Advance Usage</strong><a href="/advance_usage/handover.html" class="sidebar-link">Handover</a><a href="/advance_usage/takeover.html" class="sidebar-link">Takeover</a><a href="/advance_usage/switch_language.html" class="sidebar-link">Switch Language</a><a href="/advance_usage/subscribe.html" class="sidebar-link">Subscribe</a><a href="/advance_usage/unsubscribe.html" class="sidebar-link">Unsubscribe</a><a href="/advance_usage/label_user.html" class="sidebar-link">Label User</a><a href="/advance_usage/trigger_event.html" class="sidebar-link">Trigger Event</a><strong class="sidebar-title">Extension</strong><a href="/extension/index.html" class="sidebar-link">Overview</a><a href="/extension/getting_started.html" class="sidebar-link">Getting Started</a><a href="/extension/sending_message.html" class="sidebar-link">Sending Message</a><a href="/extension/security.html" class="sidebar-link current">Security</a><a href="/extension/examples.html" class="sidebar-link">Examples</a>
+    <strong class="sidebar-title">Basic Usage</strong><a href="/index.html" class="sidebar-link">Overview</a><a href="/basic_usage/setup.html" class="sidebar-link">Setup Your First Chatbot</a><a href="/basic_usage/private_reply.html" class="sidebar-link">Create a Private Reply</a><a href="/basic_usage/customers.html" class="sidebar-link">See Who Interact with Bot</a><a href="/basic_usage/campaigns.html" class="sidebar-link">Make a Campagin</a><strong class="sidebar-title">Advance Usage</strong><a href="/advance_usage/handover.html" class="sidebar-link">Handover</a><a href="/advance_usage/takeover.html" class="sidebar-link">Takeover</a><a href="/advance_usage/switch_language.html" class="sidebar-link">Switch Language</a><a href="/advance_usage/subscribe.html" class="sidebar-link">Subscribe</a><a href="/advance_usage/unsubscribe.html" class="sidebar-link">Unsubscribe</a><a href="/advance_usage/label_user.html" class="sidebar-link">Label User</a><a href="/advance_usage/trigger_event.html" class="sidebar-link">Trigger Event</a><strong class="sidebar-title">Extension</strong><a href="/extension/index.html" class="sidebar-link">Overview</a><a href="/extension/sending_message.html" class="sidebar-link">Sending Message</a><a href="/extension/security.html" class="sidebar-link current">Security</a><strong class="sidebar-title">sidebar.index.reference</strong><a href="/reference/list_of_actions.html" class="sidebar-link">List of Actions</a><a href="/reference/list_of_events.html" class="sidebar-link">List of Events</a>
   </div>
 </aside>
     </div>
@@ -178,7 +182,7 @@
       </li>
     </ul>
     
-      <strong class="mobile-nav-title">Basic Usage</strong><a href="/index.html" class="mobile-nav-link">Overview</a><a href="/basic_usage/setup.html" class="mobile-nav-link">Setup Your First Chatbot</a><a href="/basic_usage/private_reply.html" class="mobile-nav-link">Create a Private Reply</a><a href="/basic_usage/customers.html" class="mobile-nav-link">See Who Interact with Bot</a><a href="/basic_usage/campaigns.html" class="mobile-nav-link">Make a Campagin</a><strong class="mobile-nav-title">Advance Usage</strong><a href="/advance_usage/handover.html" class="mobile-nav-link">Handover</a><a href="/advance_usage/takeover.html" class="mobile-nav-link">Takeover</a><a href="/advance_usage/switch_language.html" class="mobile-nav-link">Switch Language</a><a href="/advance_usage/subscribe.html" class="mobile-nav-link">Subscribe</a><a href="/advance_usage/unsubscribe.html" class="mobile-nav-link">Unsubscribe</a><a href="/advance_usage/label_user.html" class="mobile-nav-link">Label User</a><a href="/advance_usage/trigger_event.html" class="mobile-nav-link">Trigger Event</a><strong class="mobile-nav-title">Extension</strong><a href="/extension/index.html" class="mobile-nav-link">Overview</a><a href="/extension/getting_started.html" class="mobile-nav-link">Getting Started</a><a href="/extension/sending_message.html" class="mobile-nav-link">Sending Message</a><a href="/extension/security.html" class="mobile-nav-link current">Security</a><a href="/extension/examples.html" class="mobile-nav-link">Examples</a>
+      <strong class="mobile-nav-title">Basic Usage</strong><a href="/index.html" class="mobile-nav-link">Overview</a><a href="/basic_usage/setup.html" class="mobile-nav-link">Setup Your First Chatbot</a><a href="/basic_usage/private_reply.html" class="mobile-nav-link">Create a Private Reply</a><a href="/basic_usage/customers.html" class="mobile-nav-link">See Who Interact with Bot</a><a href="/basic_usage/campaigns.html" class="mobile-nav-link">Make a Campagin</a><strong class="mobile-nav-title">Advance Usage</strong><a href="/advance_usage/handover.html" class="mobile-nav-link">Handover</a><a href="/advance_usage/takeover.html" class="mobile-nav-link">Takeover</a><a href="/advance_usage/switch_language.html" class="mobile-nav-link">Switch Language</a><a href="/advance_usage/subscribe.html" class="mobile-nav-link">Subscribe</a><a href="/advance_usage/unsubscribe.html" class="mobile-nav-link">Unsubscribe</a><a href="/advance_usage/label_user.html" class="mobile-nav-link">Label User</a><a href="/advance_usage/trigger_event.html" class="mobile-nav-link">Trigger Event</a><strong class="mobile-nav-title">Extension</strong><a href="/extension/index.html" class="mobile-nav-link">Overview</a><a href="/extension/sending_message.html" class="mobile-nav-link">Sending Message</a><a href="/extension/security.html" class="mobile-nav-link current">Security</a><strong class="mobile-nav-title">sidebar.index.reference</strong><a href="/reference/list_of_actions.html" class="mobile-nav-link">List of Actions</a><a href="/reference/list_of_events.html" class="mobile-nav-link">List of Events</a>
     
   </div>
   <div id="mobile-lang-select-wrap">

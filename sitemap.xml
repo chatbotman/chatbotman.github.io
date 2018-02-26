@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://docs.chatbotman.com/reference/list_of_events.html</loc>
+    
+    <lastmod>2018-02-26T09:01:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/reference/list_of_actions.html</loc>
+    
+    <lastmod>2018-02-26T08:58:04.699Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/extension/index.html</loc>
+    
+    <lastmod>2018-02-26T08:25:30.786Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/extension/sending_message.html</loc>
+    
+    <lastmod>2018-02-26T08:23:13.629Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/extension/security.html</loc>
+    
+    <lastmod>2018-02-26T08:21:41.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://docs.chatbotman.com/advance_usage/trigger_event.html</loc>
     
     <lastmod>2018-02-23T09:26:04.070Z</lastmod>
@@ -19,41 +54,6 @@
     <loc>https://docs.chatbotman.com/troubleshooting/index.html</loc>
     
     <lastmod>2018-02-23T05:40:42.597Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://docs.chatbotman.com/extension/sending_message.html</loc>
-    
-    <lastmod>2018-02-23T05:40:42.588Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://docs.chatbotman.com/extension/security.html</loc>
-    
-    <lastmod>2018-02-23T05:40:42.587Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://docs.chatbotman.com/extension/index.html</loc>
-    
-    <lastmod>2018-02-23T05:40:42.586Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://docs.chatbotman.com/extension/getting_started.html</loc>
-    
-    <lastmod>2018-02-23T05:40:42.586Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://docs.chatbotman.com/extension/examples.html</loc>
-    
-    <lastmod>2018-02-23T05:40:42.585Z</lastmod>
     
   </url>
   

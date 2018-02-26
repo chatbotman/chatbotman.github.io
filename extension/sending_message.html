@@ -38,17 +38,17 @@
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="Chatbotman">
   <!-- Open Graph -->
-  <meta name="description" content="Further description of chatbotman">
+  <meta name="description" content="In order to optimize the traffic, we provide an endpoint for you to send message to your subscriber.To access the endpoint, you need to provide the extension access token.  Here is an example request.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Sending message to subscriber by using extension access token">
 <meta property="og:url" content="https://docs.chatbotman.com/extension/sending_message.html">
 <meta property="og:site_name" content="Chatbotman">
-<meta property="og:description" content="Further description of chatbotman">
+<meta property="og:description" content="In order to optimize the traffic, we provide an endpoint for you to send message to your subscriber.To access the endpoint, you need to provide the extension access token.  Here is an example request.">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-02-23T05:40:42.588Z">
+<meta property="og:updated_time" content="2018-02-26T08:23:13.629Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Sending message to subscriber by using extension access token">
-<meta name="twitter:description" content="Further description of chatbotman">
+<meta name="twitter:description" content="In order to optimize the traffic, we provide an endpoint for you to send message to your subscriber.To access the endpoint, you need to provide the extension access token.  Here is an example request.">
 <meta property="fb:admins" content="100000247608790">
   <!-- Google Analytics -->
   
@@ -109,10 +109,13 @@
                 <a href="https://github.com/hexojs/site/edit/master/source/extension/sending_message.md" class="article-edit-link" title="Improve this doc"><i class="fa fa-pencil"></i></a>
               </header>
               <div class="article-content" itemprop="articleBody">
-                
+                <p>In order to optimize the traffic, we provide an endpoint for you to send message to your subscriber.<br>To access the endpoint, you need to provide the extension access token. </p>
+<p>Here is an example request.<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">curl -X POST \</span><br><span class="line">  https://int.chatbotman.com/api/facebookApi/sendMessage \</span><br><span class="line">  -H &apos;Cache-Control: no-cache&apos; \</span><br><span class="line">  -H &apos;Content-Type: application/json&apos; \</span><br><span class="line">  -d &apos;&#123;</span><br><span class="line">	&quot;pageId&quot;: &quot;&lt;PAGE_ID&gt;&quot;,</span><br><span class="line">	&quot;moduleAccessToken&quot;: &quot;&lt;YOUR_ACCESS_TOKEN&gt;&quot;,</span><br><span class="line">	&quot;messages&quot;: [&#123;</span><br><span class="line">        &quot;sender&quot;: &#123;</span><br><span class="line">            &quot;id&quot;: &quot;246969682484713&quot;</span><br><span class="line">        &#125;,</span><br><span class="line">        &quot;recipient&quot;: &#123;</span><br><span class="line">            &quot;id&quot;: &quot;&lt;PAGE_ID&gt;&quot;</span><br><span class="line">        &#125;,</span><br><span class="line">        &quot;message&quot;: &#123;</span><br><span class="line">            &quot;text&quot;: &quot;Hello World&quot;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;]</span><br><span class="line">&#125;&apos;</span><br></pre></td></tr></table></figure></p>
+<p>If you want to send with other message tempalte, you may refers to the <a href="https://developers.facebook.com/docs/messenger-platform/send-messages/templates" target="_blank" rel="noopener">documentation of facebook</a>.</p>
+
               </div>
               <footer class="article-footer">
-                <time class="article-footer-updated" datetime="2018-02-23T05:40:42.588Z" itemprop="dateModified">Last updated: 2018-02-23</time>
+                <time class="article-footer-updated" datetime="2018-02-26T08:23:13.629Z" itemprop="dateModified">Last updated: 2018-02-26</time>
                 
               </footer>
               <!-- 
@@ -147,7 +150,7 @@
       </article>
       <aside id="sidebar" role="navigation">
   <div class="inner">
-    <strong class="sidebar-title">Basic Usage</strong><a href="/index.html" class="sidebar-link">Overview</a><a href="/basic_usage/setup.html" class="sidebar-link">Setup Your First Chatbot</a><a href="/basic_usage/private_reply.html" class="sidebar-link">Create a Private Reply</a><a href="/basic_usage/customers.html" class="sidebar-link">See Who Interact with Bot</a><a href="/basic_usage/campaigns.html" class="sidebar-link">Make a Campagin</a><strong class="sidebar-title">Advance Usage</strong><a href="/advance_usage/handover.html" class="sidebar-link">Handover</a><a href="/advance_usage/takeover.html" class="sidebar-link">Takeover</a><a href="/advance_usage/switch_language.html" class="sidebar-link">Switch Language</a><a href="/advance_usage/subscribe.html" class="sidebar-link">Subscribe</a><a href="/advance_usage/unsubscribe.html" class="sidebar-link">Unsubscribe</a><a href="/advance_usage/label_user.html" class="sidebar-link">Label User</a><a href="/advance_usage/trigger_event.html" class="sidebar-link">Trigger Event</a><strong class="sidebar-title">Extension</strong><a href="/extension/index.html" class="sidebar-link">Overview</a><a href="/extension/getting_started.html" class="sidebar-link">Getting Started</a><a href="/extension/sending_message.html" class="sidebar-link current">Sending Message</a><a href="/extension/security.html" class="sidebar-link">Security</a><a href="/extension/examples.html" class="sidebar-link">Examples</a>
+    <strong class="sidebar-title">Basic Usage</strong><a href="/index.html" class="sidebar-link">Overview</a><a href="/basic_usage/setup.html" class="sidebar-link">Setup Your First Chatbot</a><a href="/basic_usage/private_reply.html" class="sidebar-link">Create a Private Reply</a><a href="/basic_usage/customers.html" class="sidebar-link">See Who Interact with Bot</a><a href="/basic_usage/campaigns.html" class="sidebar-link">Make a Campagin</a><strong class="sidebar-title">Advance Usage</strong><a href="/advance_usage/handover.html" class="sidebar-link">Handover</a><a href="/advance_usage/takeover.html" class="sidebar-link">Takeover</a><a href="/advance_usage/switch_language.html" class="sidebar-link">Switch Language</a><a href="/advance_usage/subscribe.html" class="sidebar-link">Subscribe</a><a href="/advance_usage/unsubscribe.html" class="sidebar-link">Unsubscribe</a><a href="/advance_usage/label_user.html" class="sidebar-link">Label User</a><a href="/advance_usage/trigger_event.html" class="sidebar-link">Trigger Event</a><strong class="sidebar-title">Extension</strong><a href="/extension/index.html" class="sidebar-link">Overview</a><a href="/extension/sending_message.html" class="sidebar-link current">Sending Message</a><a href="/extension/security.html" class="sidebar-link">Security</a><strong class="sidebar-title">sidebar.index.reference</strong><a href="/reference/list_of_actions.html" class="sidebar-link">List of Actions</a><a href="/reference/list_of_events.html" class="sidebar-link">List of Events</a>
   </div>
 </aside>
     </div>
@@ -178,7 +181,7 @@
       </li>
     </ul>
     
-      <strong class="mobile-nav-title">Basic Usage</strong><a href="/index.html" class="mobile-nav-link">Overview</a><a href="/basic_usage/setup.html" class="mobile-nav-link">Setup Your First Chatbot</a><a href="/basic_usage/private_reply.html" class="mobile-nav-link">Create a Private Reply</a><a href="/basic_usage/customers.html" class="mobile-nav-link">See Who Interact with Bot</a><a href="/basic_usage/campaigns.html" class="mobile-nav-link">Make a Campagin</a><strong class="mobile-nav-title">Advance Usage</strong><a href="/advance_usage/handover.html" class="mobile-nav-link">Handover</a><a href="/advance_usage/takeover.html" class="mobile-nav-link">Takeover</a><a href="/advance_usage/switch_language.html" class="mobile-nav-link">Switch Language</a><a href="/advance_usage/subscribe.html" class="mobile-nav-link">Subscribe</a><a href="/advance_usage/unsubscribe.html" class="mobile-nav-link">Unsubscribe</a><a href="/advance_usage/label_user.html" class="mobile-nav-link">Label User</a><a href="/advance_usage/trigger_event.html" class="mobile-nav-link">Trigger Event</a><strong class="mobile-nav-title">Extension</strong><a href="/extension/index.html" class="mobile-nav-link">Overview</a><a href="/extension/getting_started.html" class="mobile-nav-link">Getting Started</a><a href="/extension/sending_message.html" class="mobile-nav-link current">Sending Message</a><a href="/extension/security.html" class="mobile-nav-link">Security</a><a href="/extension/examples.html" class="mobile-nav-link">Examples</a>
+      <strong class="mobile-nav-title">Basic Usage</strong><a href="/index.html" class="mobile-nav-link">Overview</a><a href="/basic_usage/setup.html" class="mobile-nav-link">Setup Your First Chatbot</a><a href="/basic_usage/private_reply.html" class="mobile-nav-link">Create a Private Reply</a><a href="/basic_usage/customers.html" class="mobile-nav-link">See Who Interact with Bot</a><a href="/basic_usage/campaigns.html" class="mobile-nav-link">Make a Campagin</a><strong class="mobile-nav-title">Advance Usage</strong><a href="/advance_usage/handover.html" class="mobile-nav-link">Handover</a><a href="/advance_usage/takeover.html" class="mobile-nav-link">Takeover</a><a href="/advance_usage/switch_language.html" class="mobile-nav-link">Switch Language</a><a href="/advance_usage/subscribe.html" class="mobile-nav-link">Subscribe</a><a href="/advance_usage/unsubscribe.html" class="mobile-nav-link">Unsubscribe</a><a href="/advance_usage/label_user.html" class="mobile-nav-link">Label User</a><a href="/advance_usage/trigger_event.html" class="mobile-nav-link">Trigger Event</a><strong class="mobile-nav-title">Extension</strong><a href="/extension/index.html" class="mobile-nav-link">Overview</a><a href="/extension/sending_message.html" class="mobile-nav-link current">Sending Message</a><a href="/extension/security.html" class="mobile-nav-link">Security</a><strong class="mobile-nav-title">sidebar.index.reference</strong><a href="/reference/list_of_actions.html" class="mobile-nav-link">List of Actions</a><a href="/reference/list_of_events.html" class="mobile-nav-link">List of Events</a>
     
   </div>
   <div id="mobile-lang-select-wrap">
