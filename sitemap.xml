@@ -51,14 +51,14 @@
   </url>
   
   <url>
-    <loc>https://docs.chatbotman.com/advance_usage/private_reply.html</loc>
+    <loc>https://docs.chatbotman.com/advance_usage/subscribe.html</loc>
     
     <lastmod>2018-02-26T09:51:16.334Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://docs.chatbotman.com/advance_usage/subscribe.html</loc>
+    <loc>https://docs.chatbotman.com/advance_usage/private_reply.html</loc>
     
     <lastmod>2018-02-26T09:51:16.334Z</lastmod>
     
@@ -149,6 +149,13 @@
   </url>
   
   <url>
+    <loc>https://docs.chatbotman.com/api/tag.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.025Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://docs.chatbotman.com/api/rendering.html</loc>
     
     <lastmod>2018-02-13T10:53:12.025Z</lastmod>
@@ -164,13 +171,6 @@
   
   <url>
     <loc>https://docs.chatbotman.com/api/scaffolds.html</loc>
-    
-    <lastmod>2018-02-13T10:53:12.025Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://docs.chatbotman.com/api/tag.html</loc>
     
     <lastmod>2018-02-13T10:53:12.025Z</lastmod>
     
@@ -205,6 +205,13 @@
   </url>
   
   <url>
+    <loc>https://docs.chatbotman.com/api/index.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.023Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://docs.chatbotman.com/api/locals.html</loc>
     
     <lastmod>2018-02-13T10:53:12.023Z</lastmod>
@@ -219,23 +226,9 @@
   </url>
   
   <url>
-    <loc>https://docs.chatbotman.com/api/index.html</loc>
-    
-    <lastmod>2018-02-13T10:53:12.023Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://docs.chatbotman.com/api/generator.html</loc>
     
     <lastmod>2018-02-13T10:53:12.023Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://docs.chatbotman.com/api/filter.html</loc>
-    
-    <lastmod>2018-02-13T10:53:12.022Z</lastmod>
     
   </url>
   
@@ -268,14 +261,21 @@
   </url>
   
   <url>
-    <loc>https://docs.chatbotman.com/news/2015/02/27/new-documentation-and-registry/</loc>
+    <loc>https://docs.chatbotman.com/api/filter.html</loc>
+    
+    <lastmod>2018-02-13T10:53:12.022Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.chatbotman.com/about/index.html</loc>
     
     <lastmod>2018-02-13T10:53:12.021Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://docs.chatbotman.com/about/index.html</loc>
+    <loc>https://docs.chatbotman.com/news/2015/02/27/new-documentation-and-registry/</loc>
     
     <lastmod>2018-02-13T10:53:12.021Z</lastmod>
     
